@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -166,16 +168,15 @@ nav a:hover {
   padding-top: 30px;
   /* padding-bottom: 30px; */
 }
-select{
+select {
   border: none;
   background: none;
   color: white;
   text-decoration: underline;
   font-size: 21px;
   font-weight: 300;
-  
 }
-option{
+option {
   /* background-color: black; */
   color: black;
   font-size: 21px;
@@ -198,7 +199,7 @@ option{
   margin: 0 auto;
   /* border: 1px solid black; */
 }
-#textcont{
+#textcont {
   /* border: 1px solid black; */
   width: 40%;
   display: flex;
@@ -211,7 +212,7 @@ option{
   line-height: 40px;
   font-style: normal;
 }
-#icons{
+#icons {
   display: flex;
   justify-content: flex-start;
   width: 40%;
@@ -219,34 +220,88 @@ option{
   /* border: 1px solid black; */
   flex-wrap: wrap;
   row-gap: 30px;
-  column-gap:30px;
+  column-gap: 30px;
   margin-left: 50px;
   padding-bottom: 30px;
 }
-#icons img{
+#icons img {
   width: 20%;
 }
-#section4{
+/* this is the part that was done in class */
+#section4 {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: #bdf5ee;
+  justify-content: space-evenly;
 }
-#bigimg{
+.right-box,
+.left-box {
+  width: 40%;
+}
+.left-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+  gap: 5vh;
+}
+
+.right-box {
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.rgbx1,
+.rgbx2 {
+  height: 95%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rgbx1 {
+  align-self: end;
+}
+.inner-box {
+  background-color: white;
+  width: 100%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.inner-box h1 {
+  width: 70%;
+  text-align: center;
+  color: #00b39b;
+  font-size: 26px;
+}
+.inner-box p {
+  width: 70%;
+  text-align: center;
+  font-size: 11px;
+}
+
+/* this is the end of the styles done in class */
+
+#bigimg {
   display: flex;
   flex-direction: column;
   justify-content: end;
   width: 45%;
   align-self: baseline;
 }
-#largelogo{
+#largelogo {
   margin: 40px;
 }
-#bigimgtext{
+#bigimgtext {
   margin: 70px 70px;
 }
-#bigimgtext h1{
+#bigimgtext h1 {
   color: #00b39b;
   font-weight: 300;
   font-size: 30px;
@@ -254,13 +309,13 @@ option{
   /* line-height: 30px; */
   /* margin-bottom: px; */
 }
-#bigimgtext p{
+#bigimgtext p {
   color: #747474;
-    font-size: 15px;
-    font-family: "Work Sans", Arial, sans-serif;
-    font-weight: 400;
-    /* line-height: 21px; */
-    /* margin-bottom: 30px; */
+  font-size: 15px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 400;
+  /* line-height: 21px; */
+  /* margin-bottom: 30px; */
 }
 /* #bigimgbox2{
   width: 50%;
@@ -268,84 +323,84 @@ option{
   display: flex;
   justify-content: center;
   /* flex-direction: column; */
-  /* row-gap: 10px; */
-  /* column-gap: 20px; */
-/* } */ 
+/* row-gap: 10px; */
+/* column-gap: 20px; */
+/* } */
 /* #boxofbigimg1{
   width: 25%;
   height: 30vh;
   /* border: 1px solid black; */
-/* } */ 
+/* } */
 /* #bigimgbox2 #boxofbigimg2{
   width: 25%;
   height: 30vh;
   /* border: 1px solid black; */
 /* }  */
 /* #bigimgbox3{ */
-  /* width: 50%; */
-  /* border: 1px solid black; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
-  /* row-gap: 10px; */
-  /* column-gap: 20px; */
+/* width: 50%; */
+/* border: 1px solid black; */
+/* display: flex; */
+/* justify-content: center; */
+/* flex-direction: column; */
+/* row-gap: 10px; */
+/* column-gap: 20px; */
 /* } */
 /* #boxofbigimg3{ */
-  /* width: 25%; */
-  /* height: 30vh; */
-  /* border: 1px solid black; */
+/* width: 25%; */
+/* height: 30vh; */
+/* border: 1px solid black; */
 /* } */
 /* #boxofbigimg4{ */
-  /* width: 25%; */
-  /* height: 30vh; */
-  /* border: 1px solid black; */
+/* width: 25%; */
+/* height: 30vh; */
+/* border: 1px solid black; */
 /* } */
-#section5{
+#section5 {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 60px;
 }
-#section5 h1{
+#section5 h1 {
   color: #00b39b;
   font-size: 30px;
-  font-weight:300 ;
-  font-family:"Work Sans", Arial, sans-serif;  ;
+  font-weight: 300;
+  font-family: "Work Sans", Arial, sans-serif;
   line-height: 33px;
   /* margin-bottom: 10px; */
 }
-#section5 p{
+#section5 p {
   color: #747474;
   font-size: 14px;
-  font-family:Roboto, Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-weight: 300;
   line-height: 24px;
   margin-top: 10px;
 }
-#wee{
+#wee {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-#countryimg{
+#countryimg {
   width: 80%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   /* border: 1px solid black; */
   row-gap: 5px;
   column-gap: 10px;
 }
-.countryimgg{
+.countryimgg {
   width: 30%;
   height: 50vh;
   /* border: 1px solid black; */
 }
-#countryimg img{
+#countryimg img {
   width: 100%;
   height: 80%;
 }
-.txtuimg{
+.txtuimg {
   display: flex;
   justify-content: space-between;
   /* margin: 20px; */
@@ -353,7 +408,7 @@ option{
   height: 15%;
   width: 90%;
 }
-:hover.txtuimg{
+:hover.txtuimg {
   background-color: rgb(218, 213, 213);
   /* border: 2px solid black; */
   border-radius: 10px;
@@ -361,14 +416,14 @@ option{
   /* margin: 20px; */
   padding: 10px;
 }
-.country1para{
+.country1para {
   font-size: 16px;
   font-family: Roboto, Arial, sans-serif;
   line-height: 23px;
-  font-weight:400 ;
+  font-weight: 400;
   color: #747474;
 }
-.country2para{
+.country2para {
   /* border: 1px solid black; */
   background-color: #3d83df;
   color: white;
@@ -382,46 +437,46 @@ option{
   font-family: Roboto, Arial, sans-serif;
   font-weight: 700;
 }
-#section7txt{
+#section7txt {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 60px;
 }
 /* #section7txt h1{ */
-  /* color: #00b39b; */
-  /* font-size: 30px; */
-  /* font-weight:300 ; */
-  /* font-family:"Work Sans", Arial, sans-serif;  ; */
-  /* line-height: 33px; */
-  /* margin-bottom: 10px; */
+/* color: #00b39b; */
+/* font-size: 30px; */
+/* font-weight:300 ; */
+/* font-family:"Work Sans", Arial, sans-serif;  ; */
+/* line-height: 33px; */
+/* margin-bottom: 10px; */
 /* } */
 /* #section7txt h2{ */
-  /* color: #00b39b; */
-  /* font-size: 30px; */
-  /* font-weight:300 ; */
-  /* font-family:"Work Sans", Arial, sans-serif;  ; */
-  /* line-height: 33px; */
-  /* margin-bottom: 10px; */
+/* color: #00b39b; */
+/* font-size: 30px; */
+/* font-weight:300 ; */
+/* font-family:"Work Sans", Arial, sans-serif;  ; */
+/* line-height: 33px; */
+/* margin-bottom: 10px; */
 /* } */
-#section7txt{
-    text-align: center;
+#section7txt {
+  text-align: center;
   margin-top: 80px;
   margin-bottom: 60px;
   /* width: 30%; */
 }
-#section7txt h1{
-   color: #333333;
+#section7txt h1 {
+  color: #333333;
   font-size: 30px;
-  font-weight:300 ;
-  font-family:"Work Sans", Arial, sans-serif;  ;
+  font-weight: 300;
+  font-family: "Work Sans", Arial, sans-serif;
   line-height: 33px;
   margin-bottom: 10px;
 }
-button{
+button {
   background-color: #3d83df;
   font-size: 12px;
-  font-weight:700 ;
-  font-family: Roboto, Arial, sans-serif; ;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
   line-height: 17px;
   border: 1px hidden black;
   color: white;
@@ -432,7 +487,7 @@ button{
   /* height: 20px; */
   margin: 10px 10px;
 }
-#footertxt1{
+#footertxt1 {
   color: #ababab;
   text-align: center;
   font-size: 12px;
@@ -440,19 +495,19 @@ button{
   font-family: Roboto, Arial, sans-serif;
   font-weight: 400;
 }
-#footertxt1 span a{
+#footertxt1 span a {
   text-decoration: none;
   color: #23527c;
 }
-#footertxt1 span a :hover{
+#footertxt1 span a :hover {
   text-decoration: underline;
   color: #23527c;
 }
-#footertxt2{
+#footertxt2 {
   text-align: center;
   color: #ababab;
   font-size: 12px;
   line-height: 17px;
   font-weight: 400;
-  font-family: Roboto, Arial, sans-serif;;
+  font-family: Roboto, Arial, sans-serif;
 }
