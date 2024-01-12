@@ -1,0 +1,36 @@
+#bigimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    align-self: baseline;
+  }
+  #bigimgtext{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #bigimgtext h1{
+  color: #00b39b;
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  line-height: 33px;
+  margin-bottom: 30px;
+  }
+  #bigimgtext p{
+    color: #747474;
+    font-size: 15px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 30px;
+  }
+  /* #largelogo{
+    width: 400px;
+    /* line-height: 20px; */
+    /* align-self: baseline; */
+  /* }  */
